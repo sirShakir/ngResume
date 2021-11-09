@@ -3,14 +3,21 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { StoryComponent } from './story/story.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ZyrisComponent } from './zyris/zyris.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StoryComponent,
+    ProjectsComponent,
+    ZyrisComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,19 @@
+runtime: python27
+api_version: 12
+threadsafe: true
+handlers:
+  - url: /
+    static_files: dist/flicker.html
+    upload: dist/flicker.html
+  - url: /
+    static_dir: dist/
+skip_files:
+  - e2e/
+  - node_modules/
+  - src/
+  - coverage
+  - ^(.*/)?\..*$
+  - ^(.*/)?.*\.json$
+  - ^(.*/)?.*\.md$
+  - ^(.*/)?.*\.yaml$
+  - ^LICENSE

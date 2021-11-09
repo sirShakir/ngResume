@@ -1,0 +1,129 @@
+
+#menuTransition{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    display: none;
+}
+
+#menubar{
+    opacity: 0.8;
+    top: 10px;
+    left: .8%;
+    width: 97%;
+    background-color: black;
+
+    color: #E4BB97;
+    position: absolute;
+    border-style: solid;
+    border-color: #E4BB97;
+    z-index: 5;
+    animation: bounceIn 1s;
+    font-family: 'ZCOOL KuaiLe';
+
+     
+}
+
+#app{
+    width: 100%;
+    height: 100%;
+}
+
+svg{
+    width: 52px;
+    height: 52px;
+    z-index: 2;
+    vertical-align: middle; 
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+
+.defaultP{
+    /* --animate-delay: 1s;  */
+    animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-align: center;
+    text-decoration-thickness: 4px;
+    font-size:x-large;
+
+}
+.defaultPFocus{
+    animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+    text-decoration: line-through;
+    text-decoration-color: white;
+    text-align: center;
+    text-decoration-thickness: 4px;
+    font-size:x-large;
+
+}
+
+.formP{
+    animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+
+    text-decoration-color: #840032;
+    text-align: center;
+}
+
+form{
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: #840032;
+}
+label{
+    text-align: center;
+    display: block;
+}
+
+.heading{
+
+    animation: flipInY;
+    animation-duration: 6s;
+    padding-left: 3%;
+    display: inline-block;
+    text-decoration: underline;
+    text-decoration-color: white;
+
+}
+
+.headingF{
+
+    animation: flipInY;
+    animation-duration: 6s;
+    padding-left: 3%;
+    display: inline-block;
+    text-decoration: line-through;
+    text-decoration-color: white;
+}
+
+#smallSpan{
+    font-size: small;
+}
+
+
+.i1{
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 8s;
+    padding-left: 6%;
+    display: inline-block;
+    position: relative;
+    color: #840032;;
+
+}
+
+.i2{
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 8s;
+     /* width: 44%;  */
+    display: block;
+    position: relative;
+    color: white;
+    /* margin: auto; */
+    text-align: center;
+}
+

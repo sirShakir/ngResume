@@ -19,7 +19,10 @@
     "@angular/platform-browser": "~9.1.7",
     "@angular/platform-browser-dynamic": "~9.1.7",
     "@angular/router": "~9.1.7",
+    "animate.css": "^4.1.1",
+    "dat.gui": "^0.7.7",
     "rxjs": "~6.5.4",
+    "three": "^0.129.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
